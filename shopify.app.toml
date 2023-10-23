@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "firstTestStoresample"
+client_id = "5160fb6f0eec95bd842824233ae47fd5"
+application_url = "https://duo-dividend-gourmet-outsourcing.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://duo-dividend-gourmet-outsourcing.trycloudflare.com/auth/callback",
+  "https://duo-dividend-gourmet-outsourcing.trycloudflare.com/auth/shopify/callback",
+  "https://duo-dividend-gourmet-outsourcing.trycloudflare.com/api/auth/callback",
+  "https://duo-dividend-gourmet-outsourcing.trycloudflare.com/.shopify/graphiql/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "firstteststoresample.myshopify.com"
