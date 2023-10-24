@@ -2,7 +2,7 @@
 
 name = "firstTestStoresample"
 client_id = "5160fb6f0eec95bd842824233ae47fd5"
-application_url = "https://duo-dividend-gourmet-outsourcing.trycloudflare.com"
+application_url = "https://global-developed-florists-treatments.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,10 +11,10 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://duo-dividend-gourmet-outsourcing.trycloudflare.com/auth/callback",
-  "https://duo-dividend-gourmet-outsourcing.trycloudflare.com/auth/shopify/callback",
-  "https://duo-dividend-gourmet-outsourcing.trycloudflare.com/api/auth/callback",
-  "https://duo-dividend-gourmet-outsourcing.trycloudflare.com/.shopify/graphiql/auth/callback"
+  "https://global-developed-florists-treatments.trycloudflare.com/auth/callback",
+  "https://global-developed-florists-treatments.trycloudflare.com/auth/shopify/callback",
+  "https://global-developed-florists-treatments.trycloudflare.com/api/auth/callback",
+  "https://global-developed-florists-treatments.trycloudflare.com/.shopify/graphiql/auth/callback"
 ]
 
 [webhooks]
